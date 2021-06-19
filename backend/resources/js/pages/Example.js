@@ -13,7 +13,7 @@ function Example() {
 
                         <div className="card-body">Im an example component!</div>
                         <div className="card-body">pages下に移動出来た？？</div>
-                        <Button color="secondary" variant="contained">ワイがMaterial-UIのボタンやな？？</Button>
+                        <Button color="secondary" variant="contained">Homeに遷移ボタン</Button>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,3 @@ function Example() {
 }
 
 export default Example;
-
-if (document.getElementById('app')) {
-    ReactDOM.render(<Example />, document.getElementById('app'));
-}
-
